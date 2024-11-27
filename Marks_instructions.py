@@ -3,7 +3,7 @@ import numpy as np
 #Hello This is Mark's first app
 
 st.header("Hello this is Mark's first application.")
-
+:robot:
 with st.chat_message("user"):
     st.write("Hello 👋")
     st.line_chart(np.random.randn(30, 3))
