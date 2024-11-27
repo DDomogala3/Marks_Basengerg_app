@@ -9,3 +9,5 @@ with st.chat_message("user"):
     st.line_chart(np.random.randn(30, 3))
 
 st.chat_input("Say something")
+# add a sidebar
+a = st.sidebar.radio("Select one:", [1, 2])
