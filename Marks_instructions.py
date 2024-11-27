@@ -4,3 +4,7 @@ import streamlit as st
 
 st.write("Hello this is Mark's first application.")
 
+with st.chat_message("user"):
+    st.write("Hello 👋")
+    st.line_chart(np.random.randn(30, 3))
+
