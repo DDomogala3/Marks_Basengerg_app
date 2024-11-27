@@ -1,5 +1,5 @@
 import streamlit as st
-
+import numpy as np
 #Hello This is Mark's first app
 
 st.write("Hello this is Mark's first application.")
